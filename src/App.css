@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+  --background : #F8EDEB;
+  --storyFontTitle: "Kaushan Script", cursive;
+  --dropShadowBox: drop-shadow(4px 4px 4px #00000040);
+}
+
+
+body {
+  background: var(--background);
+}
+
+header {
+  display:  flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--storyFontTitle);
+
+  h1 {
+    font-size: clamp(1.5rem, 3vw, 4rem)
+  }
+
+
+  #pouletino {
+    width: 200px;
+  }
+
+  #regexLogo {
+    width: 100px;
+    aspect-ratio: 1;
+  }
+}
