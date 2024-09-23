@@ -72,5 +72,3 @@ const extractQuotes = (text) => {
 };
 // Exemple : 
 console.log("Exercice 10:", extractQuotes('"Bonjour", dit-il.'));
-
-// Exportation des fonctions pour utilisation dans d'autres modules
