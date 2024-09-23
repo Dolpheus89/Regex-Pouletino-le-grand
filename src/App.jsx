@@ -1,18 +1,16 @@
-import './App.css'
-import Exercices from './components/Exercices'
-import Header from './components/Header'
-import Regexinput from './components/RegexInput'
+import "./App.css";
+import Exercices from "./components/Exercices";
+import Header from "./components/Header";
+import Regexinput from "./components/RegexInput";
 
 function App() {
-
-
   return (
     <>
-      <Header/>
-      <Regexinput/>
-      <Exercices/>
+      <Header />
+      <Regexinput />
+      <Exercices />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

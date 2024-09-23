@@ -79,34 +79,30 @@ header {
 
 #exercicesContainer {
     display: flex;
-    width: calc(var(--boxModelA) + 2rem);
+    align-items: center;
+    width: var(--boxModelA);
+    background: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+    filter: var(--dropShadowBox);
+    border-radius: 10px;
+    
+    svg{
+      cursor: pointer;
+    }
 
     #order  {
       padding: 1rem;
-      margin: 2rem 0;
+      margin: 1rem 0;
       width: calc(var(--boxModelA) + 2rem);
-
+      
       h2 {
         text-align: center;
         font-size: clamp(1.5rem, 2vw, 2rem) ;
       }
-
+      
       p {
         margin: 2rem;
       }
     }
-}
-
-#stepSelection {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: 1rem;
-
-  button {
-    width: 150px;
-    margin: 0 5px;
-    font-size: 1rem;
-    aspect-ratio: 5/1;
-  }
 }
